@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FieldConnect Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --text: #1b2430; --muted: #566274; --line: #d9dee5; --accent: #0b5cad; --mark: #fff3bf; --card: #f5f7fa; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #0e141b; --text: #e6ebf1; --muted: #9aa7b6; --line: #2a3441; --accent: #7db7f0; --mark: #4a3f10; --card: #151d27; }
+  }
+  html { font-size: 17px; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; }
+  main { max-width: 46rem; margin: 0 auto; padding: 1.5rem 16px 4rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0.5rem 0 0.25rem; }
+  h2 { font-size: 1.25rem; margin: 2.2rem 0 0.4rem; padding-top: 0.4rem; border-top: 1px solid var(--line); }
+  p, li { margin: 0.5rem 0; }
+  ul { padding-left: 1.3rem; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin: 0 0 1rem; }
+  mark { background: var(--mark); color: inherit; padding: 0 0.2em; border-radius: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 0.8rem 0; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 0.55rem 0.6rem; border: 1px solid var(--line); }
+  th { background: var(--card); }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 0.8rem 1rem; margin: 1rem 0; }
+  @media (max-width: 40rem) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; } td { border: 0; padding: 0.15rem 0; } tr { border: 1px solid var(--line); border-radius: 8px; padding: 0.5rem 0.7rem; margin: 0.6rem 0; } td:first-child { font-weight: 700; } }
+</style>
+</head>
+<body>
+<main>
+<h1>FieldConnect Privacy Policy</h1>
+<p class="meta">Effective October 26, 2026 &middot; Last updated October 26, 2026</p>
+
+<div class="box">
+<strong>In short.</strong> FieldConnect is an app for groups that run their own server. When you sign in, the app connects to <em>your group's own database</em>, which your group's administrators set up and run. Your visits, the addresses you are asked to visit and your notes go there. We, who publish the app, do not run that database and do not receive or see what is in it. The app has no advertising, no analytics and no tracking, and nothing is sold.
+</div>
+
+<h2>1. Who is who</h2>
+<ul>
+<li><strong>Us (the publisher).</strong> KorMeDia (&ldquo;we&rdquo;) publishes the FieldConnect app and its updates. It is not a commercial product. We do not run your group's database, and we cannot see, correct or delete what is in it. If we also run a group ourselves, we do that as that group's administrators, not as the publisher.</li>
+<li><strong>Your group.</strong> Each group sets up its own database (a project its administrators own with a hosting service, Supabase) and connects the app to it with a group code. The group's administrators decide who gets an account, what is collected, who can see it and how long it is kept. <strong>The group is responsible for what is in its database.</strong> Ask your group's administrators first about anything held about you. A group may have its own privacy policy or rules as well.</li>
+<li><strong>Services the app uses.</strong> Listed in section 6.</li>
+</ul>
+<p>This policy covers the FieldConnect phone app and what it sends.</p>
+
+<h2>2. What the app sends to your group's database</h2>
+<table>
+<thead><tr><th>Information</th><th>Why</th><th>Where it goes</th></tr></thead>
+<tbody>
+<tr><td>Your username (and your password, below)</td><td>To sign you in. The group gives each person a role, which decides what you may see and do. Your phone keeps your role to show the right screens.</td><td>Your group's database.</td></tr>
+<tr><td>Your password</td><td>To sign you in. The group's database keeps only a one-way scrambled (hashed) form, never the password itself. Your phone also keeps your password in its protected storage so the app can renew your sign-in without asking again. Signing out removes it from the phone.</td><td>Your phone's protected storage; a hashed form in your group's database.</td></tr>
+<tr><td>Your location (see section 3)</td><td>To show nearby addresses and put the closest first.</td><td>Sent with the request and used to rank addresses. It is not saved in the group's database.</td></tr>
+<tr><td>Visits you log: the address, the time, whether someone was home, the language, the condition of the address, any do-not-call mark, building access and intercom details, and any note you type. For letter-writing and phone territories: what you sent or called, the outcome and any note</td><td>So the group knows which addresses have been visited and what happened.</td><td>Your group's database. Visits made with no signal wait on your phone until they can be sent.</td></tr>
+<tr><td>Addresses you add: the street, unit, city, state and ZIP you type, a contact name and a note if you enter them, and where the address is on the map</td><td>To add a missing address to the group's territory.</td><td>Your group's database. To find the address on the map, the typed street, unit, city, state and ZIP (never a name or a note) are sent to the address services in section 6.</td></tr>
+<tr><td>Which territories and addresses you hold, and the doors you are working</td><td>So two people do not visit the same door, and so you can see your own work.</td><td>Your group's database. Other members see only that someone is working nearby, never the address.</td></tr>
+<tr><td>A notification token and your notification choices</td><td>To send you notifications you asked for, such as a territory handed to you.</td><td>Your group's database, and the notification services in section 6.</td></tr>
+<tr><td>The app version, the phone's system (Android or iOS) and, if saving a visit to OTM fails, a short error message</td><td>To keep the app working and to find faults.</td><td>Your group's database. When the app checks for updates, Expo also receives the app version, the phone's system and a random install ID.</td></tr>
+</tbody>
+</table>
+<p>The app does not use your camera, microphone, contacts, photos or calendar. It contains no advertising and no analytics or tracking tools.</p>
+
+<h2>3. Location</h2>
+<ul>
+<li><strong>While you use the app.</strong> The app asks to use your location to show the addresses nearest you and to put the closest first. Your position is sent with that request to work out the distances and is not saved in the group's database.</li>
+<li><strong>When the app is closed (optional).</strong> In Settings you can choose &ldquo;Also when closed&rdquo; for return-visit alerts. It is not the default. If you choose it, the app asks for &ldquo;Allow all the time&rdquo; location and shows a notification while it runs, and it checks, on your phone, whether one of your own return visits that is due is nearby. This location stays on your phone and is not sent to the group's database. Choose Off or &ldquo;In the app&rdquo; to stop it, or turn the permission off in your phone's settings.</li>
+<li>You can refuse or withdraw location permission at any time. The app still opens, but it cannot show what is nearby.</li>
+</ul>
+
+<h2>4. Information about the people at the addresses</h2>
+<p>A group's territory lists addresses. For some territories (letter writing and phone territories) it also holds a name and a phone number, and notes about contact attempts. This information is entered by the group's administrators or by workers. Workers see an address only for a territory they hold or have been given access to, or for a door they claim. The app marks addresses that should not be called or visited (do-not-call and not-to-visit), and a person who asks not to be visited or contacted can have that recorded; see section 8.</p>
+<p>Please do not put more about a person in a note than the group needs.</p>
+
+<h2>5. How it is used</h2>
+<p>The app uses this information only to run your group's visiting work: signing you in, showing and routing addresses, recording visits, avoiding double visits, sending the notifications you asked for, and fixing faults. We do not receive it, sell it, use it for advertising or build profiles from it. What your group does with what is in its own database is for your group to say.</p>
+
+<h2>6. Who else sees it</h2>
+<ul>
+<li><strong>Members of your group.</strong> Administrators can see the group's data, including who logged which visit. Other workers see their own territories, and see that someone is working close to them (a name, how many doors and about how far), never the address.</li>
+<li><strong>Services your group sets up.</strong> Each group chooses and pays for these itself:
+  <ul>
+  <li><strong>Supabase</strong> hosts the group's database and the sign-in service.</li>
+  <li><strong>Melissa</strong> and the <strong>U.S. Census Bureau's geocoder</strong> find an address you add on the map. They receive only the typed street, unit, city, state and ZIP, never a name or a note. Melissa is a paid address service; the Census geocoder is a free public service. A group may use the Census geocoder alone.</li>
+  <li><strong>Online Territory Manager (OTM).</strong> If your group also uses OTM, your sign-in is checked with OTM and the visits you log, and the addresses you add, may also be sent to OTM, which has its own privacy policy. Groups that do not use OTM send nothing to it.</li>
+  </ul></li>
+<li><strong>Services the app itself uses.</strong> Each handles information under its own privacy policy:
+  <ul>
+  <li><strong>Expo</strong> delivers app updates and the push-notification service, and <strong>Google Firebase Cloud Messaging</strong> delivers notifications on Android. They receive the notification token and the notification text. Notification text never contains a street address. When the app checks for updates, Expo also receives the app version, the phone's system and a random install ID.</li>
+  <li><strong>Google Maps</strong> draws the map. As with any map, Google receives the map requests, the phone's IP address and some device information, under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. The app does not send names or phone numbers to Google.</li>
+  </ul></li>
+<li><strong>The law.</strong> We do not hold your group's data. If an authority asks us for anything, we would give only what we hold and only if legally required to.</li>
+</ul>
+
+<h2>7. Where it is kept, and how it is protected</h2>
+<p>Your group's database is hosted by Supabase under your group's own account. Information travels between the app and the database over encrypted connections (HTTPS). Passwords are hashed in the database and kept in the phone's protected storage. Access is limited by role: workers, group administrators and read-only accounts see different things, and an account an administrator turns off is refused at once. A sign-in lasts 12 hours and then renews. How well a database is protected also depends on how its group sets it up and who it gives accounts to. No system is perfectly secure, and we cannot promise it.</p>
+
+<h2>8. How long it is kept, and your choices</h2>
+<ul>
+<li><strong>Addresses and visits</strong> are kept in your group's database until a group administrator deletes them. How long is your group's decision.</li>
+<li><strong>On your phone,</strong> visits wait until they are sent, and signing out removes your saved password and sign-in. Uninstalling the app removes what it saved on the phone. Android's own backup may keep a copy of the app's saved data, such as visits not yet sent, in your Google account; you can turn that off in your phone's backup settings.</li>
+<li><strong>If you are a worker,</strong> ask your group's administrators about what the group holds about you. We cannot see your group's database, so we cannot look it up, correct it or delete it for you. Your visits may stay in the group's records where the group still needs them. An administrator can turn your account off at any time.</li>
+<li><strong>If you live at an address on a territory,</strong> ask the group that visited you to correct or remove what is held about you, or to mark your address do-not-call or not-to-visit. If you do not know which group, write to us (address below): we will help you find out where we can, but we cannot see or change a group's data. We will answer your message within 30 days.</li>
+<li>You can always refuse or withdraw location or notification permission in your phone's settings.</li>
+</ul>
+
+<h2>9. Children</h2>
+<p>FieldConnect is not for children. It is used by adult members of a group, and we do not knowingly collect information from anyone under 13.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If the app changes what it collects, we will update this page and its date. Because each group runs its own database, a group may also change what it collects or keeps; ask your group's administrators.</p>
+
+<h2>11. Contact</h2>
+<p>Questions about the app or this policy: <a href="mailto:anomaa.kormedia@gmail.com">anomaa.kormedia@gmail.com</a>. Questions about what a particular group holds: that group's administrators.</p>
+<p>The publisher: KorMeDia, Minnesota, USA.</p>
+</main>
+</body>
+</html>
